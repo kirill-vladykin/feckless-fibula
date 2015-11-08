@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Радужный слон | заказы</title>
+	<link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<script type="text/javascript" src="./js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="./js/main.js"></script>
+</head>
+<body>
+	<div class="container container-mid">
+		<div class="row" id="header">
+			<div class="col-sm-3 text-center">
+				<a id="logo" href="" title='Кафе "Радужный Слон"'>Радужный слон</a>
+			</div>
+			<div class="col-sm-9 text-center" id="webpage-title">
+				<h2>Система обработки заказов</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12 scrollable" id="content_all_orders">
+				<ul id="orders">
+				</ul>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12" id="content_one_order">
+				<div class="scrollable" style="height: 420px;">
+					<h3>Заказ #14</h3>
+					<table class="table"><tbody><tr><td>#</td><td style="width:250px;">Название блюда</td><td>Кол-во порций</td><td>Вес/объем порции</td><td>Цена порции</td></tr></tbody></table>
+					<span id="price_total">500 рублей</span>
+				</div>
+				<div class="controls">
+					<button class="btn btn-success" order_id="" onClick="markOrderPayed( $(this).attr('order_id') )">Заказ оплачен</button>
+					<button class="btn btn-default" onClick="toggleWorkArea(); showOrdersList();">Назад</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
