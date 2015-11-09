@@ -1,4 +1,10 @@
-.container-mid { width: 800px; }
+@media (min-width: 1200px) {
+	.container { width:800px; }
+}
+@media (min-width: 992px) {
+	.container { width:800px; }
+}
+
 #header, #content_all_orders, #content_one_order {
 	  background: #fff;
     background: -moz-linear-gradient(top,#fff 0,#e0e0e0 50%,#fff 100%);
