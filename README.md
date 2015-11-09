@@ -11,6 +11,7 @@ DESCRIPTION/WORKFLOW
 4) Detail information includes dishes, price, weight/volume, number of portions and total price. If all dishes in the order has only one portion then "number of portions" column is not shown;
 5) Order can be marked as "payed". These orders then are labeled "payed" and decorated as semi-transparent; 
 6) Work window has fixed dimensions but supports long order and dishes lists by auto scrolling;
+7) Mobile devices support
 
 INSTALLATION
 On Windows the program can be run under DENWER (http://www.denwer.ru/). See DENWER help for more information.
@@ -21,4 +22,4 @@ BROWSER SUPPORT
 Works pretty fine in Chrome version 46.0 and FF version 42.0.
 
 MOBILE SUPPORT
-Not tested
+I used Bootstrap in this project so the application should works fine on most mobile devices. Particulary, the app was tested on Samsung Galaxy S4 mini.
